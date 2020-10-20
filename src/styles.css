@@ -39,7 +39,7 @@ body {
 }
 
 #loading {
-    background: url('../image/loading.gif') no-repeat center center;
+    background: url('assets/image/loading.gif') no-repeat center center;
     position: absolute;
     top: 0;
     left: 0;

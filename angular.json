@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ejercicio-maquina-expendedora"
+    }
+  },
+  "defaultProject": "angular-ejercicio-maquina-expendedora",
+  "cli": {
+    "analytics": "e6739975-e820-40ad-b5a9-a4b3505f1a04"
+  }
 }
