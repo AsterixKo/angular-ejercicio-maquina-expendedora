@@ -1,0 +1,15 @@
+#id-image-machine-output {
+    width: 200px;
+    height: 200px;
+}
+
+.image-machine-output {
+    width: 100%;
+    height: 100%;
+}
+
+.machine-output-internal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

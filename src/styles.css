@@ -1,189 +1,158 @@
 /* You can add global styles to this file, and also import other style files */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .main-content {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .main-content-internal {
-    background-color: white;
-    max-width: 900px;
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background-color: white;
+  max-width: 900px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .machine-header {
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    color: white;
-    padding: 10px;
-    font-size: larger;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-radius: 12px;
 }
 
 #loading {
-    background: url('assets/image/loading.gif') no-repeat center center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9999999;
+  background: url('assets/image/loading.gif') no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
 }
 
 .machine-output {
-    display: flex;
-    justify-content: center;
-    height: 350px;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  margin-top: 10px;
 }
 
 .machine-output-internal {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-.machine-inputs {
-    display: flex;
-    justify-content: center;
-    background-color: royalblue;
-    color: white;
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
+
 
 .image {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* GRID DE PRODUCTOS */
 
 .machine-boxes {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "item1 item2 item3"
-        "item4 item5 item6"
-        "item7 item8 item9"
-        "item10 item11 item12";
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9"
+    "item10 item11 item12";
 }
 
 .item-1 {
-    grid-area: item1;
+  grid-area: item1;
 }
 
 .item-2 {
-    grid-area: item2;
+  grid-area: item2;
 }
 
 .item-3 {
-    grid-area: item3;
+  grid-area: item3;
 }
 
 .item-4 {
-    grid-area: item4;
+  grid-area: item4;
 }
 
 .item-5 {
-    grid-area: item5;
+  grid-area: item5;
 }
 
 .item-6 {
-    grid-area: item6;
+  grid-area: item6;
 }
 
 .item-7 {
-    grid-area: item7;
+  grid-area: item7;
 }
 
 .item-8 {
-    grid-area: item8;
+  grid-area: item8;
 }
 
 .item-9 {
-    grid-area: item9;
+  grid-area: item9;
 }
 
 .item-10 {
-    grid-area: item10;
+  grid-area: item10;
 }
 
 .item-11 {
-    grid-area: item11;
+  grid-area: item11;
 }
 
 .item-12 {
-    grid-area: item12;
+  grid-area: item12;
 }
 
 /* estilo boxes */
 .box-content {
-    background-color: lightgray;
-    color: black;
-    padding: 10px;
-    margin: 10px;
-    font-size: larger;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .box-content-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#id-image-machine-output {
-    width: 200px;
-    height: 200px;
-}
-
-.image-machine-output {
-    width: 100%;
-    height: 100%;
-}
-
-.machine-output-internal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.error {
-    color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
