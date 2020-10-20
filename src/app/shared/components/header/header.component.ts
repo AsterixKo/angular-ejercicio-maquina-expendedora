@@ -10,6 +10,11 @@ export class HeaderComponent {
   creditCard1 = new CreditCard(1111111111111111, 100, 'Sherri Snyder');
   creditCard2 = new CreditCard(2222222222222222, 5, 'Irma Fletcher');
   creditCard3 = new CreditCard(3333333333333333, 10, 'Sonia Jackson');
+  validCreditCards: CreditCard[];
+  
+  constructor() {
+    this.validCreditCards = [this.creditCard1, this.creditCard2, this.creditCard3];
+  }
 }
 
 class CreditCard {
